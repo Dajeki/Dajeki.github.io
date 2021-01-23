@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Homemade+Apple&display=swap');
+
+:root {
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+	font: 80px 'Bungee', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+h3 {
+	font: 40px 'Homemade Apple', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	background-image: url("/img/pexels-jaymantri-4827.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left bottom;
+	
+}
+
+#centerBlur {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 60px;
+	min-width: 750px;
+	min-height: 415px;
+	background: rgba( 255, 255, 255, 0.05 );
+	box-shadow: 0 8px 32px 0 rgba( 19,36,48, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	line-height: 5px;
+}
+
